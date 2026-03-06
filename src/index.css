@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.profile-img {
+  width: 300px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 4px solid #4f46e5;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #aaa;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* BOTÕES */
+.primary-btn {
+  background: #4f46e5;
+  padding: 12px 20px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.secondary-btn {
+  background: transparent;
+  border: 1px solid #4f46e5;
+  padding: 12px 20px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.whatsapp-btn {
+  background: #25d366;
+  padding: 12px 20px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+/* PROJETOS */
+.projects-section {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.projects-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.projects-grid {
+  display: grid;
+  gap: 30px;
+  margin-top: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.project-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+}
+
+.project-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-content {
+  padding: 20px;
+}
+
+.project-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+/* TEC */
+.tech-section {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.tech-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.tech-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.tech-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+.tech-item {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeUp 0.6s forwards;
+}
+
+.tech-item:nth-child(1) {
+  animation-delay: 0.2s;
+}
+.tech-item:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.tech-item:nth-child(3) {
+  animation-delay: 0.6s;
+}
+.tech-item:nth-child(4) {
+  animation-delay: 0.8s;
+}
+.tech-item:nth-child(5) {
+  animation-delay: 1s;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.tech-item {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.tech-item:hover {
+  transform: translateY(-10px) scale(1.05);
+}
+.tech-item:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+.tech-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+
+  width: 60px;
+  height: 60px;
+
+  background: #25d366;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+
+  z-index: 1000;
+
+  transition: transform 0.3s;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
+
+/* SOCIAL */
+.social-section {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  opacity: 0.7;
+}
+.rgb-text {
+  background: linear-gradient(90deg, #00c6ff, #0072ff, #00c6ff, #ffffff);
+
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: rgb 6s linear infinite;
+}
+
+@keyframes rgb {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 200%;
+  }
+}
+
+.neon-text {
+  font-size: 3rem;
+  font-weight: 700;
+
+  background: linear-gradient(
+    90deg,
+    #00f7ff,
+    #00ff88,
+    #ffee00,
+    #ff00c8,
+    #00f7ff
+  );
+
+  background-size: 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: neonFlow 6s linear infinite;
+
+  text-shadow:
+    0 0 5px rgba(0, 255, 255, 0.6),
+    0 0 10px rgba(0, 255, 255, 0.4),
+    0 0 20px rgba(0, 255, 255, 0.2);
+}
+
+@keyframes neonFlow {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 300%;
+  }
+}
