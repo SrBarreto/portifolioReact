@@ -60,7 +60,7 @@ export default function Home() {
       {/* HERO */}
       <section className="hero">
         <img
-          src="/public/minha-foto.jpg"
+          src="/img/minha-foto.jpg"
           alt="Roger Barreto"
           className="profile-img"
         />
