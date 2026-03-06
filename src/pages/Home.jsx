@@ -5,7 +5,7 @@ const projects = [
     title: "Painel de Controle React",
     description:
       "Dashboard de usuários com React, consumo de API e autenticação.",
-    image: "/public/img/crud.png",
+    image: "/img/crud.png",
     demo: "https://dashboard-usuarios.netlify.app/",
     code: "https://github.com/SrBarreto/dashboard-usuarios",
   },
@@ -13,7 +13,7 @@ const projects = [
     title: "Previsão do Tempo",
     description:
       "App de previsão do tempo usando API de clima, com design responsivo.",
-    image: "/public/img/previsao.png",
+    image: "/img/previsao.png",
     demo: "https://previsao-clima.netlify.app",
     code: "https://github.com/SrBarreto/previsao-clima",
   },
@@ -22,7 +22,7 @@ const projects = [
     title: "Projeto LP DNC",
     description:
       "Projeto de landing page para o curso DNC, com design responsivo.",
-    image: "/public/img/dnc.jpeg",
+    image: "/img/dnc.jpeg",
     demo: "https://lp-dnc.netlify.app",
     code: "https://github.com/SrBarreto/lp-dnc",
   },
@@ -31,7 +31,7 @@ const projects = [
     title: "Ache o Endereço",
     description:
       "App de busca de endereços usando API de geolocalização, com design responsivo.",
-    image: "/public/img/ache o endereço.png",
+    image: "/img/ache o endereço.png",
     demo: "https://ache-o-endereco.netlify.app",
     code: "https://github.com/SrBarreto/ache-o-endereco",
   },
@@ -40,7 +40,7 @@ const projects = [
     title: "RChat",
     description:
       "App de chat em tempo real usando WebSocket, com design responsivo.",
-    image: "/public/img/Gemini_Generated_Image_gzd70ggzd70ggzd7.jpeg",
+    image: "/img/Gemini_Generated_Image_gzd70ggzd70ggzd7.jpeg",
     demo: "https://rchat.netlify.app",
     code: "https://github.com/SrBarreto/rchat",
   },
@@ -48,7 +48,7 @@ const projects = [
     title: "Em Breve: Projeto de Portfólio",
     description:
       "Novos projetos estão a caminho. Fique atento para mais atualizações em breve!",
-    image: "/public/img/em breve.jpeg",
+    image: "/img/em breve.jpeg",
     demo: "#",
     code: "#",
   },
